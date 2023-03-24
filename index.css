@@ -1,57 +1,91 @@
 body{
-    
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     color: white;
-    background-color: black;
-    font-family: Arial, Helvetica, sans-serif;
-}
-ul{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
-    justify-content: space-between;
-    list-style-type: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #000513;
+    columns: 2;
+}
+nav{
+    height: 100vh;
+    width: 250px;
+    background-color: #010211;
+    display: flex;
+    flex-direction: column;
+}
+#foto{
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    padding: 16px;
-
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
 }
-
-a{
-    color: white;
-    text-decoration: none;
+#foto p{
+    font-size: 20px;
 }
-
-header img{
-    width: 150px;
-    height: 150px;
+nav img{
+    border: white solid 3px;
     border-radius: 50%;
-    border: 5px solid rgb(150, 0, 0);
+    width: 70%;
+    height: 70%;
+}
+
+hr{
+    width: 100%;
+    bottom: 10px;
+}
+
+#midias{
+    position: absolute;
+    bottom: 10px;
+    margin-left: 1rem;
+}
+#midias a{
+    text-decoration: none;
+    color: #898989;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 5px;
+}
+main{
+    flex-grow: 1;
+    background-color: #04002c;
+    display: flex;
+    flex-direction: column;
+}
+main section{
+    width: 80%;
+    height: 100%;
+    align-self: center;
 }
 
 footer{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-top: 40px;
+    height: 50px;
+    align-self: center;
+    margin-bottom: 10px;
 }
 footer img{
-    height: 40px;
-    width: 40px;
-
+    margin-right: 10px
 }
-footer a{
-    margin: 20px;
-}
-footer p{
-    margin-top: 2px;
-}
-
 h1{
-    color: rgb(150, 0, 0);
+    font-size: 30px;
 }
-
-.center{
-    text-align: center;
+h2{
+    font-size: 25px;
+    margin-bottom: 20px;
 }
-
-.top{
-    margin-top: 70px;
-    margin-left: 50px;
+ul{
+    font-size: 20px;
+}
+main section p{
+    font-size: 20px;
+    margin: 3px 0 3px 30px;
+    margin-left: 30px;
 }

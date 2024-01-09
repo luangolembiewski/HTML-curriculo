@@ -13,7 +13,7 @@ body{
     columns: 2;
 }
 nav{
-    height: 100vh;
+    height: 100%;
     width: 250px;
     background-color: #010211;
     display: flex;
